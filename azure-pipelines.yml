@@ -25,3 +25,5 @@ jobs:
       ci/code_checks.sh lint
     displayName: 'Linting'
     condition: true
+
+#remember to add back in rest of the yaml after test.
