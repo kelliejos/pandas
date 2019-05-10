@@ -16,7 +16,7 @@ jobs:
 # how to make that a conditional task, so for now these are
 # separate templates as well
 - job: 'Checks_and_doc'
-  pool: 'Default'
+  pool: 'Master'
   timeoutInMinutes: 90
   steps:
   # Do not require pandas
